@@ -3,13 +3,21 @@
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run --watch src/app.ts",
+    "migrate": "mongogrator"
   },
   "dependencies": {
-    "elysia": "latest"
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "elysia": "latest",
+    "migrate-mongo": "^12.1.3",
+    "mongodb": "^6.14.2",
+    "nanoid": "^5.1.3",
+    "pg": "^8.13.3"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "node-pg-migrate": "^7.9.1"
   },
   "module": "src/index.js"
 }
