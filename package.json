@@ -4,14 +4,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/app.ts",
-    "migrate": "mongogrator"
+    "migrate": "migrate-mongo"
   },
   "dependencies": {
+    "@elysiajs/cors": "^1.2.0",
     "bcrypt": "^5.1.1",
     "dotenv": "^16.4.7",
     "elysia": "latest",
     "migrate-mongo": "^12.1.3",
     "mongodb": "^6.14.2",
+    "mongogrator": "^1.2.2",
     "nanoid": "^5.1.3",
     "pg": "^8.13.3"
   },

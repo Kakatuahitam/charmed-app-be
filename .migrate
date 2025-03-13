@@ -1,0 +1,9 @@
+{
+  "lastRun": "20250311024332-seedUsers.ts",
+  "migrations": [
+    {
+      "title": "20250311024332-seedUsers.ts",
+      "timestamp": 1741828628821
+    }
+  ]
+}
